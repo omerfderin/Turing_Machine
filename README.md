@@ -12,7 +12,7 @@ Konsol üzerinden py turing_proje.py ya da herhangi bir ide üzerinden çalışt
 # Örnek Testler
 
 ## TEST 1
-
+<pre>
 1. PIN Doğrulama
 2. Çıkış
 
@@ -22,7 +22,6 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1223', Sistemde kayıtlı olan pin: '1234'
 Giriş: #1223#1234#
 
-<pre>
 Başlangıç: [#] 1  2  2  3  #  1  2  3  4  #
 Adım 1: # [1] 2  2  3  #  1  2  3  4  # | q1
 Adım 2: #  X [2] 2  3  #  1  2  3  4  # | q2
@@ -124,7 +123,7 @@ Sonuç: q8
 </pre>
 
 ## TEST 2
-
+<pre>
 1. PIN Doğrulama
 2. Çıkış     
 
@@ -134,7 +133,6 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1234', Sistemde kayıtlı olan pin: '1234'
 Giriş: #1234#1234#
 
-<pre>
 Başlangıç: [#] 1  2  3  4  #  1  2  3  4  #
 Adım 1: # [1] 2  3  4  #  1  2  3  4  # | q1
 Adım 2: #  X [2] 3  4  #  1  2  3  4  # | q2
@@ -212,7 +210,7 @@ Sonuç: q7
 </pre>
 
 ## TEST 3
-
+<pre>
 1. PIN Doğrulama
 2. Çıkış     
 
@@ -222,7 +220,6 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1357', Sistemde kayıtlı olan pin: '1357'
 Giriş: #1357#1357#
 
-<pre>
 Başlangıç: [#] 1  3  5  7  #  1  3  5  7  #
 Adım 1: # [1] 3  5  7  #  1  3  5  7  # | q1
 Adım 2: #  X [3] 5  7  #  1  3  5  7  # | q2
@@ -300,7 +297,7 @@ Sonuç: q7
 </pre>
 
 ## TEST 4
-
+<pre>
 1. PIN Doğrulama
 2. Çıkış
 
@@ -310,7 +307,6 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '2356', Sistemde kayıtlı olan pin: '1357'
 Giriş: #2356#1357#
 
-<pre>
 >Başlangıç: [#] 2  3  5  6  #  1  3  5  7  #
 Adım 1: # [2] 3  5  6  #  1  3  5  7  # | q1
 Adım 2: #  X [3] 5  6  #  1  3  5  7  # | q2
