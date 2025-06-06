@@ -1,4 +1,4 @@
-"""'q0': 'İlk #'ı ara',
+"""'q0': 'İlk #'ı ara', 
 'q1': 'İlk PIN karakterini X ile işaretle',
 'q2': 'İkinci #'e git',
 'q3': 'Sistem PIN\'inde eşleşen karakteri Y ile işaretle',
