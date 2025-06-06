@@ -22,9 +22,10 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1223', Sistemde kayıtlı olan pin: '1234'
 Giriş: #1223#1234#
 
-` ` `Başlangıç: [#] 1  2  2  3  #  1  2  3  4  #
-` ` `Adım 1: # [1] 2  2  3  #  1  2  3  4  # | q1` ` `
-` ` `Adım 2: #  X [2] 2  3  #  1  2  3  4  # | q2` ` `
+<pre>
+Başlangıç: [#] 1  2  2  3  #  1  2  3  4  #
+Adım 1: # [1] 2  2  3  #  1  2  3  4  # | q1
+Adım 2: #  X [2] 2  3  #  1  2  3  4  # | q2
 Adım 3: #  X  2 [2] 3  #  1  2  3  4  # | q2
 Adım 4: #  X  2  2 [3] #  1  2  3  4  # | q2
 Adım 5: #  X  2  2  3 [#] 1  2  3  4  # | q2
@@ -119,7 +120,8 @@ Adım 33: #  X  X  X  3  #  Y [Y] 3  4  # | q3
 Adım 34: #  X  X  X  3  #  Y  Y [3] 4  # | q3
 Adım 34: #  X  X  X  3  #  Y  Y [3] 4  # | q3
 Sonuç: q8
-` ` `Şifre hatalı ` ` `
+Şifre hatalı
+</pre>
 
 ## TEST 2
 
@@ -132,7 +134,8 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1234', Sistemde kayıtlı olan pin: '1234'
 Giriş: #1234#1234#
 
-'''Başlangıç: [#] 1  2  3  4  #  1  2  3  4  #
+<pre>
+Başlangıç: [#] 1  2  3  4  #  1  2  3  4  #
 Adım 1: # [1] 2  3  4  #  1  2  3  4  # | q1
 Adım 2: #  X [2] 3  4  #  1  2  3  4  # | q2
 Adım 3: #  X  2 [3] 4  #  1  2  3  4  # | q2
@@ -205,7 +208,8 @@ Adım 69: #  X  X  X  X  #  Y  Y  Y [Y] # | q6
 Adım 70: #  X  X  X  X  #  Y  Y  Y  Y [#] | q6
 Adım 71: #  X  X  X  X  #  Y  Y  Y  Y  # | q7
 Sonuç: q7
-` ` `Şifre doğru` ` `
+Şifre doğru
+</pre>
 
 ## TEST 3
 
@@ -218,7 +222,8 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1357', Sistemde kayıtlı olan pin: '1357'
 Giriş: #1357#1357#
 
-'''Başlangıç: [#] 1  3  5  7  #  1  3  5  7  #
+<pre>
+Başlangıç: [#] 1  3  5  7  #  1  3  5  7  #
 Adım 1: # [1] 3  5  7  #  1  3  5  7  # | q1
 Adım 2: #  X [3] 5  7  #  1  3  5  7  # | q2
 Adım 3: #  X  3 [5] 7  #  1  3  5  7  # | q2
@@ -291,7 +296,8 @@ Adım 69: #  X  X  X  X  #  Y  Y  Y [Y] # | q6
 Adım 70: #  X  X  X  X  #  Y  Y  Y  Y [#] | q6
 Adım 71: #  X  X  X  X  #  Y  Y  Y  Y  # | q7
 Sonuç: q7
-Şifre doğru'''
+Şifre doğru
+</pre>
 
 ## TEST 4
 
@@ -304,7 +310,8 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '2356', Sistemde kayıtlı olan pin: '1357'
 Giriş: #2356#1357#
 
-'''Başlangıç: [#] 2  3  5  6  #  1  3  5  7  #
+<pre>
+>Başlangıç: [#] 2  3  5  6  #  1  3  5  7  #
 Adım 1: # [2] 3  5  6  #  1  3  5  7  # | q1
 Adım 2: #  X [3] 5  6  #  1  3  5  7  # | q2
 Adım 3: #  X  3 [5] 6  #  1  3  5  7  # | q2
@@ -312,4 +319,5 @@ Adım 4: #  X  3  5 [6] #  1  3  5  7  # | q2
 Adım 5: #  X  3  5  6 [#] 1  3  5  7  # | q2
 Adım 6: #  X  3  5  6  # [1] 3  5  7  # | q3
 Sonuç: q8
-Şifre hatalı'''
+Şifre hatalı
+</pre>
