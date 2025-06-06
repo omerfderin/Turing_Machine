@@ -22,7 +22,7 @@ Seçim (1-2): 1
 Kullanıcının girdiği pin: '1223', Sistemde kayıtlı olan pin: '1234'
 Giriş: #1223#1234#
 
-'''Başlangıç: [#] 1  2  2  3  #  1  2  3  4  #
+` ` `Başlangıç: [#] 1  2  2  3  #  1  2  3  4  #
 Adım 1: # [1] 2  2  3  #  1  2  3  4  # | q1
 Adım 2: #  X [2] 2  3  #  1  2  3  4  # | q2
 Adım 3: #  X  2 [2] 3  #  1  2  3  4  # | q2
@@ -119,7 +119,7 @@ Adım 33: #  X  X  X  3  #  Y [Y] 3  4  # | q3
 Adım 34: #  X  X  X  3  #  Y  Y [3] 4  # | q3
 Adım 34: #  X  X  X  3  #  Y  Y [3] 4  # | q3
 Sonuç: q8
-Şifre hatalı'''
+Şifre hatalı ` ` `
 
 ## TEST 2
 
