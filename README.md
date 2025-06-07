@@ -55,14 +55,6 @@ Adım 29: #  X  X [2] 3  #  Y  Y  3  4  # | q1
 Adım 30: #  X  X  X [3] #  Y  Y  3  4  # | q2
 Adım 31: #  X  X  X  3 [#] Y  Y  3  4  # | q2
 Adım 32: #  X  X  X  3  # [Y] Y  3  4  # | q3
-Adım 25: # [X] X  2  3  #  Y  Y  3  4  # | q5
-Adım 26: [#] X  X  2  3  #  Y  Y  3  4  # | q5
-Adım 27: # [X] X  2  3  #  Y  Y  3  4  # | q1
-Adım 28: #  X [X] 2  3  #  Y  Y  3  4  # | q1
-Adım 29: #  X  X [2] 3  #  Y  Y  3  4  # | q1
-Adım 30: #  X  X  X [3] #  Y  Y  3  4  # | q2
-Adım 31: #  X  X  X  3 [#] Y  Y  3  4  # | q2
-Adım 32: #  X  X  X  3  # [Y] Y  3  4  # | q3
 Adım 33: #  X  X  X  3  #  Y [Y] 3  4  # | q3
 Adım 34: #  X  X  X  3  #  Y  Y [3] 4  # | q3
 Sonuç: q8
